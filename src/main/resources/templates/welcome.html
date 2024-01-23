@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+    <link rel="stylesheet" th:href="@{/css/demo.css}" />
+</head>
+<body>
+<form>
+    <h1>Welcome</h1>
+    <p th:text="'Welcome Mr/Mrs.'+ ${User}"/>
+</form>
+</body>
+</html>
